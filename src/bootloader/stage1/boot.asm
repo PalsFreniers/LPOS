@@ -364,7 +364,7 @@ disk_reset:
 msg_loading: db "LPOS We are the cult", ENDL, 0
 msg_read_failed: db "the LP2I is closed", ENDL, 0
 msg_kernel_not_found: db "the Principal isn't", ENDL, 0
-file_kernel_bin: db 'KERNEL  BIN'
+file_kernel_bin: db 'STAGE2  BIN'
 kernel_cluster:         dw 0
 
 KERNEL_LOAD_SEGMENT     equ 0x2000
