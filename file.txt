@@ -1,0 +1,2 @@
+use this cause make is dumb
+export PATH="$PWD/toolchain/i686-elf/bin:$PATH"
